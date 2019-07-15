@@ -8,8 +8,8 @@ Homepage: http://www.oracle.com/technetwork/java/javase/downloads/index.html
 
 Package: oracle-java8-installer
 Section: non-free/java
-Architecture: all
-Pre-Depends: wget, binutils, debconf (>= 0.5) | debconf-2.0
+Architecture: amd64
+Pre-Depends: binutils, debconf (>= 0.5) | debconf-2.0
 Depends: java-common (>= 0.24), locales, ${misc:Depends}
 Conflicts: j2se-common
 Recommends: gsfonts-x11, oracle-java8-set-default
