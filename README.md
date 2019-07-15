@@ -33,8 +33,5 @@ To create packages on your own:
 - sudo apt install -y debhelper build-essential
 - git clone https://github.com/ThoanNV/oracle-java8-installer.git
 - cd oracle-java8-installer
-- download jdk-8u201-linux-x64.tar.gz and jdk-8u201-linux-i586.tar.gz
-  Link: https://www.oracle.com/technetwork/java/javase/downloads/java-archive-javase8-2177648.html
-- sh ./prepare.sh
 - dpkg-buildpackage -uc -us
-- install any missing packages that dpkg-buildpackage complains about and repeat
+- install with internet any missing packages that dpkg-buildpackage complains about and repeat
