@@ -1,0 +1,5 @@
+oracle-java8-installer (8.201-1) stable; urgency=high
+
+  * Initial Java 8 package
+
+ -- ThoanNV <thoan26@gmail.com>  Fri, 12 Jul 2019 02:04:24 +0700
