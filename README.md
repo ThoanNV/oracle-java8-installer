@@ -12,15 +12,15 @@ Supported Ubuntu/Debian versions
 
 So far packages were tested on following Ubuntu versions:
 
-- bionic i386/amd64
-- xenial i386/amd64
-- trusty i386/amd64
+- bionic amd64
+- xenial amd64
+- trusty amd64
 
 So far packages were tested on following Debian versions:
 
-- stretch i386/amd64
-- jessie i386/amd64
-- wheezy i386/amd64
+- stretch amd64
+- jessie amd64
+- wheezy amd64
 
 However, if one finds any problem on others Ubuntu/Debian,
 feel free to report an issue and I will try to resolve it.
@@ -34,5 +34,7 @@ To create packages on your own:
 - git clone -b 8u201_amd64 https://github.com/ThoanNV/oracle-java8-installer.git
 - cd oracle-java8-installer
 - download jdk-8u201-linux-x64.tar.gz and jce_policy-8.zip
+- Link JDK: https://www.oracle.com/technetwork/java/javase/downloads/java-archive-javase8-2177648.html
+- Link JCE: https://www.oracle.com/technetwork/java/javase/downloads/jce8-download-2133166.html
 - dpkg-buildpackage -uc -us
 - install with internet any missing packages that dpkg-buildpackage complains about and repeat
