@@ -7,5 +7,6 @@
 %:
 	dh $@
 
-override_dh_builddeb:
-	dh_builddeb -- -Zgzip
+# The jdk package is perfectly reproducible without
+# strip-nondeterminism; Drop the helper to prove it.
+override_dh_strip_nondeterminism:
